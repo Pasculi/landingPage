@@ -26,7 +26,7 @@ body {
 .overlay {
     width           : 100%;
     height          : 100vh;
-    background-color: #3c08f750;
+    background-color: #722b0350;
     position        : absolute;
     z-index         : 2;
 }
@@ -83,4 +83,29 @@ body {
 
 .background__title__fondos {
     font-size: 2.5rem;
+}
+ul{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+}
+.container{
+    margin-top:60px;
+    padding:0 50px;
+}
+
+.box{
+    margin: auto;
+    width: 300px;
+    height: auto;
+    background-color: tomato;
+    color:#fff;
+    padding:30px;
+    border-radius: 25px;
+    box-shadow: -20px -20px 0 0 #fb968b ;
+}
+.box__title{
+    border-bottom:2px solid #fff;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+
 }

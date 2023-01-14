@@ -4,20 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <h2>Pseudoclases</h2>
-    <ul>
-        <li>:link</li>
-        <li>:visited</li>
-        <li>:hover</li>
-        <li>:active</li>
-        <li>:target</li>
-        <li>:focus</li>
-        <li>:focus-within</li>
-        <li>:not</li>
-
-    </ul>
+    <div class="container">
+        
+        <h2>Pseudoclases</h2>
+        <ul>
+            <li>:link</li>
+            <li>:visited</li>
+            <li>:hover</li>
+            <li>:active</li>
+            <li>:target</li>
+            <li>:focus</li>
+            <li>:focus-within</li>
+            <li>:not</li><br>
+            <h3>Pseudoclases de tipo</h3>
+            <li>:only-of-type => único en su tipo en su seccion</li>
+            <li>:first-of-type => Selecciona el primer elemento de su tipo en su contenedor</li>
+            <li>:last-of-type => Selecciona el último elemento de su tipo en su contenedor</li>
+            <li>:nth-of-type(2) => Selecciona el elemento que quiero seleccionar</li>
+            <li>:nth-of-type(2n) => Selecciona de dos en dos</li>
+            <li>:nth-of-type(3n) => Selecciona de tres en tres</li>
+            <li> *:nth-last-of-type(3n, even, odd, 2) => Seleciona desde abajo hacia arriba</li><br>
+            <h3>Pseudoclases hijo (condicionales)</h3>
+            <li>:only-child => Hijo único</li>
+            <li>:first-child => Seleciona al primer hijo</li>
+            <li>:last-child => Seleciona al último hijo</li>
+            <li> *:nth-child(3n, even, odd, 2) => Seleciona al último hijo</li>
+            <li> *:nth-last-child(3n, even, odd, 2) => Seleciona desde abajo hacia arriba</li>
+        </ul><br><br>
+        <h2>Pseudoelementos</h2>
+        <ul>
+            <li>p::selection</li>
+        </ul>
+        <div class="box">
+            <h2 class="box__title">Aprende CSS3</h2>
+            <p class="box__description"></p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolore aliquam similique velit, incidunt officiis quam eaque voluptatibus maiores reiciendis ratione cupiditate tempora perferendis iste alias labore deserunt quo ea!
+        </div>
+    </div>
 </body>
 </html>
