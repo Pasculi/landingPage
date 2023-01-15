@@ -102,7 +102,7 @@ ul{
     color:rgb(0, 0, 0);
     padding:30px;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px 20px #fb968b ;
+    box-shadow: 0px 0px 25px 10px #0b87a7 ;
 }
 .box__title{
     border-bottom:2px solid tomato;
@@ -145,13 +145,14 @@ p::before{
 li{
     list-style: none;
     padding: 0;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    
 }
 li::before{
     content:counter(contador);
     counter-increment:contador;
-    background-color: #fb968b;
-    padding:5px;
+    background-color: #0b87a7;
+    padding:2px;
     display:inline-block;
     width: 30px;
     height: 30px;
@@ -160,5 +161,6 @@ li::before{
     text-align: center;
     color: #fff;
     font-weight: 200;
+    margin-right: 10px;
 
 }
